@@ -7,8 +7,10 @@ export default {
   red: '#FF7F7F',
   blue: '#00CCFF',
 
-  purpple: '#1100c9',
-  purpple_secondary: '#06004a',
+  orange: '#04010f',
+
+  purpple: '#1f1785',
+  purpple_secondary: '#180ca8',
 
   grey600: '#3b3b3b',
   grey500: '#a8a8a8',

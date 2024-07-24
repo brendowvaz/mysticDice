@@ -1,26 +1,26 @@
 import {StyleSheet, Dimensions} from 'react-native';
+import colors from '../../assets/others/colors';
 
 export default StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height,
+    alignItems: 'center',
+    backgroundColor: colors.orange,
   },
-  linearGradient: {
-    flex: 1,
-    width: Dimensions.get('window').width,
-  },
-  logo: {
-    marginTop: 30,
-    marginHorizontal: 'auto',
+  input: {
+    fontSize: 32,
     marginBottom: 20,
+    padding: 10,
+
+    backgroundColor: colors.purpple_secondary,
+    color: colors.white,
+    borderRadius: 10,
+    width: '90%',
+    textAlign: 'center',
   },
-  dice: {
-    position: 'absolute',
-    height: Dimensions.get('window').height,
-    resizeMode: 'contain',
-    opacity: 0.5,
+  image: {
+    width: 400,
+    height: 350,
   },
 });
